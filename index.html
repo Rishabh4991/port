@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="'https://fonts.googleapis.com/css2?family=Inter&display=swap')"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Know Your Client (KYC) Application Form - for Individuals</h1>
+      <p>Please fill this form in English and BLOCK Letters</p>
+      <p>
+        (Please tick the box on the left margin of the appropriate row where
+        CHANGE/CORRECTION is required and provide the details in the
+        corresponding window)
+      </p>
+      <div class="box">
+        <p>
+          <strong>For office use only</strong> (To be filled by the financial
+          institution)
+        </p>
+        <table>
+          <tr>
+            <td>Application Type*</td>
+
+            <td>
+              <form>
+                <input type="checkbox" name="app" id="new" value="app" />
+                <label for="new">New</label>
+                <input type="checkbox" name="app" id="update" value="app" />
+                <label for="update">Update</label>
+              </form>
+            </td> 
+
+            <td>
+              <form>
+                <label for="kyc">KYC Number</label>
+                <input type="number" name="kyc" id="kyc" />
+              </form>
+            </td>
+          </tr>
+          <tr>
+            <td>Account Type*</td>
+            <td>
+              <form>
+                <input type="checkbox" name="acc" id="normal" value="acc" />
+                <label for="normal">Normal</label>
+                <input type="checkbox" name="acc" id="simp" value="acc" />
+                <label for="simp">Simplified (for low risk customers)</label>
+                <input type="checkbox" name="acc" id="sm" value="acc" />
+                <label for="sm">Small</label>
+              </form>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </header>
+    <section class="identity">
+      <h2>A. Identity details</h2>
+      <div class="idendetails">
+        <table class="t2">
+          <tr>
+            <td>
+              <label for="text">1. Name (Same as ID Proof)</label>
+              <input type="text" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <form>
+                <label for="text">1a. Maiden Name (If any) </label>
+                <input type="text" />
+              </form>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <form>
+                <label for="text">2. Father's/Spouse's Name </label>
+                <input type="text" />
+              </form>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <form>
+                <label for="text">2a. Mother's Name </label>
+                <input type="text" />
+              </form>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="sub2">
+        <table class="s1">
+          <tr>
+            <td>3a. Gender</td>
+            <td>
+              <form>
+                <input type="checkbox" name="" id="male" />
+                <label for="male">Male</label>
+                <input type="checkbox" name="" id="female" />
+                <label for="female">Female</label>
+                <input type="checkbox" name="" id="trans" />
+                <label for="trans">Transgender</label>
+              </form>
+            </td>
+
+            <td>3b. Marital Status</td>
+            <td>
+              <form>
+                <input type="checkbox" name="" id="single" />
+                <label for="male">Single</label>
+                <input type="checkbox" name="" id="married" />
+                <label for="female">Married</label>
+                <input type="checkbox" name="" id="other" />
+                <label for="trans">Other</label>
+              </form>
+            </td>
+            <td>
+              <form>
+                <label for="date">DOB</label>
+                <input type="date" name="" id="date" />
+              </form>
+            </td>
+          </tr>
+          
+        </table>
+        <table class="s2">
+            <tr>
+                <td>4a. Citizenship</td>
+                <td>
+                  <form>
+                    <input type="checkbox" name="" id="indian" />
+                    <label for="indian">Indian</label>
+    
+                    <input type="checkbox" name="" id="other" />
+                    <label for="other">Other</label>
+                  </form>
+                </td>
+                <td>4b. Residential Status</td>
+                <td>
+                  <form>
+                    <input type="checkbox" name="" id="ri" />
+                    <label for="ri">Resident Individual</label>
+                    <input type="checkbox" name="" id="nri" />
+                    <label for="nri">Non Resident Indian </label>
+                    <input type="checkbox" name="" id="pio" />
+                    <label for="pio">Person of Indian Origin</label>
+                    <input type="checkbox" name="" id="fn" />
+                    <label for="fn">Foreign National </label>
+                  </form>
+                </td>
+              
+              </tr>
+            
+        </table>
+      </div>
+      <div class="ifapp">
+         <table class>
+            <tr>
+                <td>Tick if applicable </td>
+                <td>
+                   <form>
+                       
+                       <input type="checkbox" name="" id="rt">
+                       <label for="rt">Residence for tax purposes in jurisdiction(s) outside India </label>
+                   </form>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <label for="cdr">ISO 3166 Country Code of Jurisdiction of residence</label>
+                    <input type="number" name="" id="cdr">
+                </td>
+                <td>
+                    <label for="pob">Place of birth</label>
+                    <input type="text" name="" id="pob">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ti">Tax Identification Number or Equivalent</label>
+                    <input type="number" name="" id="ti">
+                </td>
+                <td>
+                    <label for="cob">ISO3166 Country Code of Birth</label>
+                    <input type="number" name="" id="cob">
+                </td>
+            </tr>
+        </table>
+        
+     </div>
+     <div class="sub3">
+        <table>
+            <tr>
+                <td>
+                    <form>
+                        <label for="pan">5a. PAN</label>
+                        <input type="number" name="" id="pan">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <form>
+                        <label for="addhar">5b. Unique Identification Number (UID) / AADHAR</label>
+                        <input type="number" name="" id="addhar">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>6. Proof of Identity Submitted</td>
+                <td>
+                    
+                    <form>
+                       <input type="checkbox" name="" id="poi">
+                        <label for="poi">Pan Card </label>
+                        <input type="checkbox" name="" id="oth">
+                        <label for="oth">Other (Please Specify)</label>
+                        <input type="text" name="" id="">
+                    </form>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+    </section>
+    <section class="address details">
+        <div class="contact">
+            <p>Contact Details</p>
+        <table class="condetails">
+            <tr>
+                <td>
+                    <label for="tel">Telephone (Office)</label>
+                    <input type="number" name="" id="tel">
+                </td>
+                <td>
+                    <label for="mob">Mobile No</label>
+                    <input type="number" name="" id="mob">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="telres">Telephone (Residence)</label>
+                    <input type="number" name="" id="telres">
+                </td>
+                <td>
+                    <label for="email">Email ID</label>
+                    <input type="number" name="" id="email">
+                </td>
+            </tr>
+        </table>
+        <table class="c1">
+            <tr>
+                <td>Residence/Correspondence Address</td>
+                <td>Address Type: </td>
+                <form >
+                    <td>
+                        <input type="checkbox" name="" id="res">
+                        <label for="res"> Residential</label>
+                        <input type="checkbox" name="" id="bus">
+                        <label for="bus"> Business</label>
+                        <input type="checkbox" name="" id="unspec">
+                        <label for="unspec"> Unspecified </label>
+                        
+                    </td>
+                </form>
+                
+            </tr>
+        
+        </table>
+        
+        <table class="c2">
+            <tr>
+                <td>
+                    <form>
+                        <label for="add" >Address</label>
+                        <input type="text" name="" id="add">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <form>
+                        <label for="city" >City/Town</label>
+                        <input type="text" name="" id="city">
+                    </form>
+                </td>
+                <td>
+                    <form>
+                        <label for="dis" >District</label>
+                        <input type="text" name="" id="dis">
+                    </form>
+                </td>
+                <td>
+                    <form>
+                        <label for="pc" >Pin Code</label>
+                        <input type="number" name="" id="pc">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <form>
+                        <label for="sut" >State/U.T Code</label>
+                        <input type="text" name="" id="sut">
+                    </form>
+                </td>
+                <td>
+                    <form>
+                        <label for="iso" >Country/ISO Code</label>
+                        <input type="text" name="" id="z=iso">
+                        
+                        
+                    </form>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <label for="poa">Specify the Proof of Address Submitted for Residence / Correspondence Address</label>
+                    <input type="text" name="" id="poa">
+                </td>
+                
+            </tr>
+            
+            
+        </table>
+       
+
+        </div>
+        
+    </section>
+    <section class="decleration">
+        <h2>C. DECLARATION</h2>
+        <p>I hereby declare that the details furnished above are true and correct to the best of my knowledge and belief and
+            I undertake to inform you of any changes therein, immediately. In case any of the above information is found to be
+            false or untrue or misleading or misrepresenting, I am aware that I may be held liable for it.
+        </p>
+        <p>
+            <label for="date">Date</label>
+            <input type="date" name="" id="date">
+            <input type="text" name="" id="sign" placeholder="Client Signature">
+        </p><br>
+        <hr>
+        <div class="office">
+            <h2>FOR OFFICE USE ONLY</h2>
+            <p>In Person Verification (IPV) Details:</p>
+            <form>
+                <label for="IPV">Name of the Person who has done the IPV: </label>
+                <input type="text" name="" id="IPV" ><br>
+                <label for="des">Designation: </label>
+                <input type="text" name="" id="des" >
+                <label for="eid"> Employee ID:  </label>
+                <input type="text" name="" id="eid" >
+                <p>Name of the Organization: ZERODHA BROKING LTD.</p>
+                <label for="ipvd">Date of the IPV: </label>
+                <input type="date" name="" id="ipv" >
+                <label for="signipv">Signature of the Person who has done the IPV</label>
+                <input type="text" name="" id="signipv" >
+                <label for="stamp">Seal/Stamp of the Intermediary</label>
+                <input type="text" name="" id="stamp" >
+                
+            </form>
+            <br>
+            <hr>
+        </div>
+        <br>
+        <footer>
+            <form >
+                <input type="checkbox" name="" id="verified" >
+                <label for="verified">Originals Verified and Self-Attested Document Copies Received</label>
+                <label for="date">Date</label>
+                <input type="date">
+               <label for="Signatory">Signature of the Authorized Signatory </label>
+               <input type="text" name="" id="Signatory" >
+            </form>
+        </footer>
+        
+    .
+    </section>
+    <script>
+        $(document).ready(function(){
+            $('input:checkbox').click(function() {
+                $('input:checkbox').not(this).prop('checked', false);
+            });
+        });
+        </script>
+    
+    
+  </body>
+</html>

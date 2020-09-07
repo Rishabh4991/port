@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 10px;
+
+}
+input label{
+    margin: 3px;
+    padding: 5px;
+
+}
+header{
+    margin: 30px 50px;
+    padding: 10px;
+
+}
+.box{
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+table,tr,td{
+    padding: 10px;
+}
+.identity{
+    margin: 10px 50px;
+}
+.idendetails{
+    border: 1px solid black;
+    padding: 10px;
+}
+.sub2{
+    width: 100%;
+    
+    
+}
+.ifapp{
+    border: 1px solid black;
+}
+.contact{
+    margin-left: 50px;
+    margin-right: 100px;
+}
+.condetails{
+    border: 1px solid black;
+    width:100%;
+    
+}
+.c1{
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.decleration{
+    margin-left: 50px;
+    padding: 10px;
+}
+.decleration p{
+    padding: 10px;
+}
+.office  form,label,input{
+    padding: 5px;
+}
+.footer form input label{
+    margin: 5px;
+    padding: 10px;
+}
